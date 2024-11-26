@@ -73,7 +73,7 @@ public SelectChange(ev: any): void {
                                <input type="text" name="docCliente" className="form-control"   />
                            </div>
                            <div className="form-group">
-                               <label>Tipo de solución </label><span className="campoRequerido">*</span>
+                               <label>Tipo de solución </label><span className="campoRequerido">*</span> 
                                <input type="text" name="docCliente" className="form-control"   />
                            </div>
                            <div className="form-group">
