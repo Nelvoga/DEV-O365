@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "flujo-procesos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/flujoProcesos/FlujoProcesosWebPart.js",
+          "manifest": "./src/webparts/flujoProcesos/FlujoProcesosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FlujoProcesosWebPartStrings": "lib/webparts/flujoProcesos/loc/{locale}.js"
+  }
+}

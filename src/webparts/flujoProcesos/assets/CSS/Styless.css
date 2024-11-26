@@ -1,0 +1,67 @@
+.imgFront{
+font-size: 0;
+text-align: center;
+display:flex;
+flex-direction: row;
+}
+
+.imgFront, .imagenRespon{
+display: inline-block;
+font-size: inherit;
+}
+
+.imagenRespon{
+    width: 16.6%;
+    max-width: 345px;
+    padding: 30px;
+}
+
+.imagenRespon img{
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.tituloFront{
+    background-color: #D0262f;
+    margin: 0px 0px 1px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 6px 11px 18px -10px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.tituloF{
+    justify-content: center;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px black ;
+   }
+
+div img:hover {
+   transform: scale(1.2);
+   z-index: 100;
+}
+
+.campoRequerido{
+    color: #D0262f;
+    position: relative;
+}
+
+.TitleNewReg{
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-size: 26px; 
+}
+
+.TitNewRegistro{
+    background-color: #D0262f;
+    box-shadow: 6px 11px 18px -10px;
+}

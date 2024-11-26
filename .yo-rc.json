@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "portal-procesos",
+    "libraryId": "87f8eddc-64d1-4393-9f21-d3c711671588",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PortalProcesos",
+    "solutionShortDescription": "PortalProcesos description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

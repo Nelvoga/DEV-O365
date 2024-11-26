@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "portal-procesos-client-side-solution",
+    "id": "87f8eddc-64d1-4393-9f21-d3c711671588",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PortalProcesos description"
+      },
+      "longDescription": {
+        "default": "PortalProcesos description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "portal-procesos Feature",
+        "description": "The feature that activates elements of the portal-procesos solution.",
+        "id": "31b7f9e7-1efd-4c33-99a7-3ce3729c36d6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/portal-procesos.sppkg"
+  }
+}
